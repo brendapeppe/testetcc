@@ -1,0 +1,152 @@
+@font-face {
+    font-family: Catilde;
+    src: url(./fontes/Catilde\ semibold.ttf);
+}
+
+body {
+    background-image: url(./Logo\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    margin-top: 1%;
+    font-size: 55px;
+    text-align: center;
+    font-family: Catilde;
+    color: #9c65cf;
+    text-shadow: 1px 2px 3px #210750;
+
+}
+
+h5 {
+    font-size: 25px;
+    color: #c6bae9;
+    background-color: #170d33ce;
+    border-radius: 15px;
+    padding: 4px;
+    font-family: Catilde;
+
+
+
+}
+
+.carousel-caption p {
+    background-color: #170d33ce;
+    color: #c6bae9;
+    font-size: 16px;
+    font-weight: 650;
+    border-radius: 15px;
+    padding: 5px;
+    width: 400px;
+    margin-left: -15%;
+    margin-bottom: -10%;
+    font-family: "League Spartan", sans-serif;
+
+
+}
+
+.text {
+    width: 60%;
+    text-align: center;
+    margin-left: 20%;
+    font-family: "League Spartan", sans-serif;
+    font-size: 22px;
+    font-weight: 550;
+    color: #000000;
+}
+
+img {
+    border-radius: 30px;
+    object-fit: cover;
+
+
+}
+
+
+
+#carouselExampleCaptions {
+    top: 8px;
+    border-radius: 30px;
+    border-radius: 30px;
+    border-radius: 30px;
+    border-radius: 29px;
+background: #5515d450;
+box-shadow:  -22px -22px 36px #3f109d52,
+             22px 22px 36px #6a1aff50;
+    margin-bottom: 2%;
+
+}
+
+.carousel-control-prev:hover {
+    background-color: #bcade763;
+    border-radius: 30px 0 0 30px;
+    margin: 0;
+}
+
+.carousel-control-next:hover {
+    background-color: #bcade763;
+    border-radius: 0 30px 30px 0;
+    margin: 0;
+}
+
+
+.carousel {
+    width: 31%;
+    margin: 0 35%;
+}
+.fa-rotate-270{
+    font-size: 30px;
+    color: #000000;
+}
+.fa-rotate-270:hover{
+    color: #d3abf8;
+}
+.fa-rotate-90{
+    font-size: 30px;
+    color: #000000;
+}
+.fa-rotate-90:hover{
+    color: #d3abf8;
+}
+
+button{
+    font-size: 15px;
+    border-radius: 15px;
+    padding: 5px;
+    position: absolute;
+    margin: 10px;
+    background-color: #290947;
+    color: #c189f5;
+    font-weight: 620;
+    
+}
+
+/* -----MODO ESCURO----- */
+
+
+.dark-mode{
+   background-image: url(./Logo\ \(2\).png);
+
+}
+
+.dark-mode h2{
+    color: rgb(26, 5, 41);
+    text-shadow: 1px 2px 3px #fff;
+}
+.dark-mode .carousel-caption p{
+    color: #c189f5;
+    background-color: #10023a96;
+}
+.dark-mode h5{
+    color: #c189f5;
+    background-color:#10023a96 ;
+}
+.dark-mode .text{
+    color: rgb(23, 2, 41);
+}
+.dark-mode #carouselExampleCaptions{
+    background: #5515d4cc;
+box-shadow:  -22px -22px 36px #3f109dcc,
+             22px 22px 36px #6a1affe7;
+}
